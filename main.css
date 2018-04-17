@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("images/verticalWaves.png");
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 15px;
+}
+
+footer {
+    
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    color: silver;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 0 0 0;
+}
+nav { 
+    height: 53px;
+
+}
+
+.topBorder {
+    border-top: 2px solid lightgray;
+    padding-top: 15px;
+}
+
+.containerMain {
+    background-color: #fff;
+    padding: 20px 30px;
+    max-width: 960px;
+}
+
+.h1 {
+    color: #fff!important;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    display: inline;
+    padding: 14px;
+    margin-right: 0;
+    font-size: 30px;
+
+}
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 10px 20px;
+}
+h3 {
+    background-color: #4aaaa5;
+    width: 200px;
+    font-size: 6vmin;
+    text-align: center;
+}
+
+h3 span { 
+    color: white;  
+ }
+
+a {
+    text-decoration: none;
+    color: #777777
+}
+
+a:visited {
+    color: #777777;
+    float: left;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+.myImg {
+    width: 200px;
+    height: 200px;
+    margin: 5px 10px 0px 0;
+}
+
+.portfolioImg {
+    width: 200px;
+    height: 200px;
+    display: inline;
+    float: left;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    margin: 10px auto;
+}
+
+.navContainer {
+    padding: 0;
+    background-color: #fff!important;
+    max-width: 960px;;
+}
+/* ------------- 
+
+input[type=text], select {
+    width: 100%;
+    max-width: 960px;
+    padding: 12px 2px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+#message {
+    height: 100px;
+    padding: 0 2px;
+}
+
+input[type=button] {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+input[type=button]:focus {
+    background-color: #4aaaa5;
+    outline: 0;
+  } 
+
+input[type=button]:hover {
+    background-color: lightgray;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #fff;
+    clear: both;
+    margin: 30px;
+}
+
+form {
+    margin: 12px 30px;
+}
+ */
+
+ @media (min-width: 960px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+*/
